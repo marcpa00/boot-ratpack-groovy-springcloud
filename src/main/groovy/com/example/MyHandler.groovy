@@ -14,10 +14,10 @@ class MyHandler extends GroovyHandler {
         context.with {
             request.body.then { jsonBody ->
                 Blocking.get {
-                    log.info "received json body : ${jsonBody.text}"
+                    log.info "* received json body : ${jsonBody.text}"
                     jsonBody.text
                 }.then { String jsonBodyText ->
-                    log.info "in then block, var passed to closure (jsonBodyText) is : '${jsonBodyText}'"
+                    log.info "* in then block, var passed to closure (jsonBodyText) is : '${jsonBodyText}'"
                     render json([input: jsonBodyText])
                 }
             }
