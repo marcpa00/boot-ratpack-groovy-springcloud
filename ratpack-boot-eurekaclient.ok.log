@@ -1,0 +1,104 @@
+[marcpa@MarcPaquette boot-ratpack-groovy-springcloud]$ ./gradlew clean run
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+Starting a new Gradle Daemon for this build (subsequent builds will be faster).
+:clean
+:compileJava
+:compileGroovy
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+:processResources
+:classes
+:configureRun
+:run
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+12:45:26.139 [main] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+12:45:26.146 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+12:45:26.147 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+12:45:26.152 [main] INFO  ratpack.server.RatpackServer - Starting server...
+12:45:26.346 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+12:45:26.346 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+12:45:26.347 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+12:45:26.347 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+12:45:26.348 [main] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
+12:45:26.348 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+12:45:26.348 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+12:45:26.348 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+12:45:26.397 [main] DEBUG i.n.util.internal.PlatformDependent - Javassist: available
+12:45:26.397 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/jq/phyt33l88xj9nz0059b__0nh0000gv/T (java.io.tmpdir)
+12:45:26.397 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:45:26.397 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+12:45:26.425 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+12:45:26.425 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+12:45:26.425 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+12:45:26.425 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+12:45:26.426 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+12:45:26.426 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+12:45:26.426 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+12:45:26.426 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+12:45:26.426 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+12:45:26.426 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+12:45:26.433 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+12:45:26.433 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+12:45:26.863 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+12:45:26.875 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+12:45:26.875 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+12:45:26.885 [main] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.HttpRequestMatcher
+12:45:26.886 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2016-01-24 12:45:27.818  INFO 35822 --- [           main] ratpack.groovy.GroovyRatpackMain         : Starting GroovyRatpackMain on Moliere.marcpa.maison with PID 35822 (/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-groovy/1.1.1/8e47a494ad681d86b9c3b3f72b3ee062cf54f8f/ratpack-groovy-1.1.1.jar started by marcpa in /Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud)
+2016-01-24 12:45:27.819  INFO 35822 --- [           main] ratpack.groovy.GroovyRatpackMain         : No active profile set, falling back to default profiles: default
+2016-01-24 12:45:27.853  INFO 35822 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1917d90f: startup date [Sun Jan 24 12:45:27 EST 2016]; root of context hierarchy
+2016-01-24 12:45:27.982  INFO 35822 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-24 12:45:27.995  INFO 35822 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67c8446e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-24 12:45:28.079  INFO 35822 --- [           main] ratpack.groovy.GroovyRatpackMain         : Started GroovyRatpackMain in 0.851 seconds (JVM running for 2.186)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-01-24 12:45:28.102  INFO 35822 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2016-01-24 12:45:28.111  INFO 35822 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@573284a5: startup date [Sun Jan 24 12:45:28 EST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1917d90f
+2016-01-24 12:45:28.500  INFO 35822 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=88c18585-7548-3336-8981-a2f014e578f9
+2016-01-24 12:45:28.501  INFO 35822 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-24 12:45:28.505  INFO 35822 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$67c8446e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-24 12:45:28.845  WARN 35822 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-01-24 12:45:28.846  INFO 35822 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-01-24 12:45:28.851  WARN 35822 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-01-24 12:45:28.851  INFO 35822 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-01-24 12:45:28.892  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-01-24 12:45:28.903  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2016-01-24 12:45:28.904  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2016-01-24 12:45:28.906  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2016-01-24 12:45:28.908  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2016-01-24 12:45:28.917  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2016-01-24 12:45:28.921  INFO 35822 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=573284a5,type=ConfigurationPropertiesRebinder]
+2016-01-24 12:45:28.978  INFO 35822 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-01-24 12:45:28.984  INFO 35822 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2016-01-24 12:45:29.139  INFO 35822 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-01-24 12:45:29.139  INFO 35822 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-01-24 12:45:29.286  INFO 35822 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-01-24 12:45:29.286  INFO 35822 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-01-24 12:45:29.333  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2016-01-24 12:45:29.334  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2016-01-24 12:45:29.334  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2016-01-24 12:45:29.334  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2016-01-24 12:45:29.334  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2016-01-24 12:45:29.334  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2016-01-24 12:45:29.334  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2016-01-24 12:45:29.497  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2016-01-24 12:45:29.499  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2016-01-24 12:45:29.502  INFO 35822 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2016-01-24 12:45:29.523  INFO 35822 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application boot-in-ratpack with eureka with status UP
+2016-01-24 12:45:29.523  INFO 35822 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [current=UP, previous=STARTING]
+2016-01-24 12:45:29.526  INFO 35822 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/moliere.marcpa.maison:boot-in-ratpack:5050: registering service...
+2016-01-24 12:45:29.530  INFO 35822 --- [           main] com.example.DemoApplication              : Started DemoApplication in 2.347 seconds (JVM running for 3.637)
+2016-01-24 12:45:29.598  INFO 35822 --- [           main] ratpack.server.RatpackServer             : Ratpack started (development) for http://localhost:5050
+2016-01-24 12:45:29.600  INFO 35822 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/moliere.marcpa.maison:boot-in-ratpack:5050 - registration status: 204
+2016-01-24 12:45:40.344  INFO 35822 --- [ck-blocking-3-1] com.example.MyHandler                    : received json body : { "name":"marc" }
+2016-01-24 12:45:40.345  INFO 35822 --- [ack-compute-1-2] com.example.MyHandler                    : in then block, var passed to closure (jsonBodyText) is : '{ "name":"marc" }'
+2016-01-24 12:45:59.511  INFO 35822 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/moliere.marcpa.maison:boot-in-ratpack:5050 - Re-registering apps/BOOT-IN-RATPACK
+2016-01-24 12:45:59.511  INFO 35822 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/moliere.marcpa.maison:boot-in-ratpack:5050: registering service...
+2016-01-24 12:45:59.515  INFO 35822 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/moliere.marcpa.maison:boot-in-ratpack:5050 - registration status: 204
+> Building 85% > :run
