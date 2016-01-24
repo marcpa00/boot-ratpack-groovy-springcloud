@@ -11,7 +11,7 @@ ratpack {
   handlers {
     register(Spring.spring(SpringBootConfig))
     get {
-      render "Hello World from ratpack"
+      render "Hello World from ratpack + boot + eureka (client)"
     }
     
     post('echo-input', registry.get(MyHandler))

@@ -1,0 +1,310 @@
+[marcpa@MarcPaquette boot-ratpack-groovy-springcloud]$ ./gradlew clean run
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+:clean
+:compileJava UP-TO-DATE
+:compileGroovy
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+:processResources
+:classes
+:configureRun
+:generateRebel
+:run
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+objc[99632]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin/java and /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.
+JRebel: Starting logging to file: /Users/marcpa/.jrebel/jrebel.log
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  #############################################################
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  JRebel Legacy Agent 6.3.1 (201512181654)
+2016-01-24 17:49:34 JRebel:  (c) Copyright ZeroTurnaround AS, Estonia, Tartu.
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel: A newer version '6.3.2' is available for download
+2016-01-24 17:49:34 JRebel: from http://zeroturnaround.com/software/jrebel/download/
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel: Directory '/Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/build/resources/main' will be monitored for changes.
+2016-01-24 17:49:34 JRebel: Directory '/Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/build/classes/main' will be monitored for changes.
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  Over the last 30 days JRebel prevented
+2016-01-24 17:49:34 JRebel:  at least 79 redeploys/restarts saving you about 3,2 hours.
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  Over the last 365 days JRebel prevented
+2016-01-24 17:49:34 JRebel:  at least 1074 redeploys/restarts saving you about 43,6 hours.
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  Licensed to Marc Paquette (ACCEO Solutions Inc. - Montreal)
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  License type: dedicated
+2016-01-24 17:49:34 JRebel:  Valid from: June 26, 2015
+2016-01-24 17:49:34 JRebel:  Valid until: June 25, 2016
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:
+2016-01-24 17:49:34 JRebel:  #############################################################
+2016-01-24 17:49:34 JRebel:
+17:49:35.116 [main] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+17:49:35.122 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+17:49:35.124 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+17:49:35.129 [main] INFO  ratpack.server.RatpackServer - Starting server...
+17:49:35.405 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+17:49:35.405 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+17:49:35.405 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+17:49:35.406 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+17:49:35.406 [main] DEBUG i.n.util.internal.PlatformDependent - Java version: 8
+17:49:35.406 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+17:49:35.406 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+17:49:35.406 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+17:49:35.478 [main] DEBUG i.n.util.internal.PlatformDependent - Javassist: available
+17:49:35.478 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/jq/phyt33l88xj9nz0059b__0nh0000gv/T (java.io.tmpdir)
+17:49:35.478 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+17:49:35.478 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+17:49:35.503 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+17:49:35.503 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+17:49:35.503 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+17:49:35.503 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+17:49:35.503 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+17:49:35.504 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+17:49:35.504 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+17:49:35.504 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+17:49:35.504 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+17:49:35.504 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+17:49:35.511 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+17:49:35.511 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+17:49:36.231 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+17:49:36.244 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+17:49:36.244 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+17:49:36.255 [main] DEBUG i.n.u.i.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.HttpRequestMatcher
+17:49:36.256 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2016-01-24 17:49:36 JRebel: Monitoring resource '/Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/build/resources/main/bootstrap.yml'.
+2016-01-24 17:49:37.335  INFO 99632 --- [           main] ratpack.groovy.GroovyRatpackMain         : Starting GroovyRatpackMain on Apple-TV.marcpa.maison with PID 99632 (/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-groovy/1.1.1/8e47a494ad681d86b9c3b3f72b3ee062cf54f8f/ratpack-groovy-1.1.1.jar started by marcpa in /Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud)
+2016-01-24 17:49:37.337  INFO 99632 --- [           main] ratpack.groovy.GroovyRatpackMain         : No active profile set, falling back to default profiles: default
+2016-01-24 17:49:37.379  INFO 99632 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4437ac07: startup date [Sun Jan 24 17:49:37 EST 2016]; root of context hierarchy
+2016-01-24 17:49:37.634  INFO 99632 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-24 17:49:37.659  INFO 99632 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b8bfb9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-24 17:49:37.785  INFO 99632 --- [           main] ratpack.groovy.GroovyRatpackMain         : Started GroovyRatpackMain in 0.912 seconds (JVM running for 4.287)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-01-24 17:49:37.823  INFO 99632 --- [           main] com.example.SpringBootConfig             : No active profile set, falling back to default profiles: default
+2016-01-24 17:49:37.837  INFO 99632 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2d119405: startup date [Sun Jan 24 17:49:37 EST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4437ac07
+2016-01-24 17:49:38.385  INFO 99632 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e84d264-01f1-3824-87c6-34fc74e78f36
+2016-01-24 17:49:38.387  INFO 99632 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-24 17:49:38.391  INFO 99632 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b8bfb9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-24 17:49:38.888  WARN 99632 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-01-24 17:49:38.888  INFO 99632 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-01-24 17:49:38.894  WARN 99632 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-01-24 17:49:38.894  INFO 99632 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-01-24 17:49:38.949  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-01-24 17:49:38.961  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2016-01-24 17:49:38.961  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2016-01-24 17:49:38.964  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2016-01-24 17:49:38.966  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2016-01-24 17:49:38.978  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2016-01-24 17:49:38.984  INFO 99632 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2d119405,type=ConfigurationPropertiesRebinder]
+2016-01-24 17:49:39.070  INFO 99632 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-01-24 17:49:39.080  INFO 99632 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2016-01-24 17:49:39.299  INFO 99632 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-01-24 17:49:39.299  INFO 99632 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-01-24 17:49:39.576  INFO 99632 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-01-24 17:49:39.576  INFO 99632 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-01-24 17:49:39.666  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2016-01-24 17:49:39.666  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2016-01-24 17:49:39.666  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2016-01-24 17:49:39.666  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2016-01-24 17:49:39.666  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2016-01-24 17:49:39.667  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2016-01-24 17:49:39.667  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2016-01-24 17:49:39.953  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2016-01-24 17:49:39.955  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2016-01-24 17:49:39.959  INFO 99632 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2016-01-24 17:49:39.992  INFO 99632 --- [           main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application boot-in-ratpack with eureka with status UP
+2016-01-24 17:49:39.992  INFO 99632 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [current=UP, previous=STARTING]
+2016-01-24 17:49:39.997  INFO 99632 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050: registering service...
+2016-01-24 17:49:40.006  INFO 99632 --- [           main] com.example.SpringBootConfig             : Started SpringBootConfig in 3.197 seconds (JVM running for 6.508)
+2016-01-24 17:49:40.283  INFO 99632 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - registration status: 204
+2016-01-24 17:49:40.294  INFO 99632 --- [           main] ratpack.server.RatpackServer             : Ratpack started (development) for http://localhost:5050
+2016-01-24 17:50:09.973  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - Re-registering apps/BOOT-IN-RATPACK
+2016-01-24 17:50:09.974  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050: registering service...
+2016-01-24 17:50:09.979  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - registration status: 204
+2016-01-24 17:50:39.984  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - Re-registering apps/BOOT-IN-RATPACK
+2016-01-24 17:50:39.984  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050: registering service...
+2016-01-24 17:50:39.988  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - registration status: 204
+2016-01-24 17:51:09.994  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - Re-registering apps/BOOT-IN-RATPACK
+2016-01-24 17:51:09.994  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050: registering service...
+2016-01-24 17:51:09.998  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - registration status: 204
+2016-01-24 17:51:15.041  WARN 99632 --- [ack-compute-1-4] ratpack.server.RatpackServer             : reload requested by 'file-backed reload informant: /Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/build/resources/main/ratpack.groovy'
+2016-01-24 17:51:15.079  INFO 99632 --- [ck-blocking-3-1] ratpack.server.RatpackServer             : Building registry...
+2016-01-24 17:51:15.129  INFO 99632 --- [ck-blocking-3-1] o.s.boot.SpringApplication               : Starting application on Apple-TV.marcpa.maison with PID 99632 (/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.1.RELEASE/7ea554d1d14e180ee080abc3e7c19e316a700188/spring-boot-1.3.1.RELEASE.jar started by marcpa in /Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud)
+2016-01-24 17:51:15.129  INFO 99632 --- [ck-blocking-3-1] o.s.boot.SpringApplication               : No active profile set, falling back to default profiles: default
+2016-01-24 17:51:15.131  INFO 99632 --- [ck-blocking-3-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7aae940b: startup date [Sun Jan 24 17:51:15 EST 2016]; root of context hierarchy
+2016-01-24 17:51:15.144  INFO 99632 --- [ck-blocking-3-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-24 17:51:15.148  INFO 99632 --- [ck-blocking-3-1] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b8bfb9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-24 17:51:15.177  INFO 99632 --- [ck-blocking-3-1] o.s.boot.SpringApplication               : Started application in 0.072 seconds (JVM running for 101.682)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-01-24 17:51:15.197  INFO 99632 --- [ck-blocking-3-1] com.example.SpringBootConfig             : No active profile set, falling back to default profiles: default
+2016-01-24 17:51:15.198  INFO 99632 --- [ck-blocking-3-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@468f790c: startup date [Sun Jan 24 17:51:15 EST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7aae940b
+2016-01-24 17:51:15.373  INFO 99632 --- [ck-blocking-3-1] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e84d264-01f1-3824-87c6-34fc74e78f36
+2016-01-24 17:51:15.374  INFO 99632 --- [ck-blocking-3-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-24 17:51:15.377  INFO 99632 --- [ck-blocking-3-1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6b8bfb9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-24 17:51:15.508  WARN 99632 --- [ck-blocking-3-1] o.s.c.n.a.ArchaiusAutoConfiguration      : Netflix ConfigurationManager has already been installed, unable to re-install
+2016-01-24 17:51:15.526  INFO 99632 --- [ck-blocking-3-1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-01-24 17:51:15.528  INFO 99632 --- [ck-blocking-3-1] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2016-01-24 17:51:15.528  INFO 99632 --- [ck-blocking-3-1] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2016-01-24 17:51:15.529  INFO 99632 --- [ck-blocking-3-1] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2016-01-24 17:51:15.533  INFO 99632 --- [ck-blocking-3-1] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2016-01-24 17:51:15.541 ERROR 99632 --- [ck-blocking-3-1] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [org.springframework.cloud.context.environment.EnvironmentManager@63337fa1] with key 'environmentManager'; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager
+	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:625) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.registerBeans(MBeanExporter.java:550) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:432) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:792) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+       .springframework.boot.SpringApplication.run(SpringApplication.java:305) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134) [spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at ratpack.spring.Spring.spring(Spring.java:104) [ratpack-spring-boot-1.1.1.jar:na]
+	at ratpack.spring.Spring.spring(Spring.java:91) [ratpack-spring-boot-1.1.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93) [groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) [groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46) [groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91) [groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48) [groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113) [groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) [groovy-all-2.4.4.jar:2.4.4]
+	at ratpack$_run_closure1$_closure3.doCall(ratpack.groovy:12) [script:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.codehaus.groovy.ron.CachedMethod.invoke(CachedMethod.java:93) [groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) [groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294) [groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019) [groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.Closure.call(Closure.java:426) [groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.Closure.call(Closure.java:442) [groovy-all-2.4.4.jar:2.4.4]
+	at ratpack.groovy.internal.ClosureInvoker.invoke(ClosureInvoker.java:59) [ratpack-groovy-1.1.1.jar:na]
+	at ratpack.groovy.internal.ClosureInvoker.lambda$toAction$19(ClosureInvoker.java:70) [ratpack-groovy-1.1.1.jar:na]
+	at ratpack.handling.internal.ChainBuilders.build(ChainBuilders.java:32) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.groovy.Groovy.chain(Groovy.java:494) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.groovy.Groovy.chain(Groovy.java:509) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.groovy.Groovy$Script.lambda$doApp$7(Groovy.java:323) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.server.internal.DefaultRatpackServer.buildRatpackHandler(DefaultRatpackServer.java:304) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.server.internal.DefaultRatpackServer.buildAdapter(DefaultRatpackServer.java:267) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.server.internal.DefaultRatpackServer$ReloadHandler.lambda$null$257(DefaultRatpackServer.java:494) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking$1.lambda$get$122(Blocking.java:70) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking.intercept(Blocking.java:241) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking.access$000(Blocking.java:35) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking$1.get(Blocking.java:68) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking$1.get(Blocking.java:61) ~[ratpack-core-1.1.1.jar:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_60]
+	at java.uturrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_60]
+	at ratpack.exec.internal.DefaultExecController$ExecControllerBindingThreadFactory.lambda$newThread$135(DefaultExecController.java:113) ~[ratpack-core-1.1.1.jar:na]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137) ~[netty-common-4.1.0.Beta7.jar:4.1.0.Beta7]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_60]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324) ~[na:1.8.0_60]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:1.8.0_60]
+	at org.springframework.jmx.support.MBeanRegistrationSupport.doRegister(MBeanRegistrationSupport.java:195) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:615) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	... 55 common frames omitted
+
+2016-01-24 17:51:15.542  INFO 99632 --- [ck-blocking-3-1] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/build/classes/main/, file:/Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/build/resources/main/, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-core/1.1.1/3a73d924b524fa2798d8fbaf600a16bb69c6835d/ratpack-core-1.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-groovy/1.1.1/8e47a494ad681d86b9c3b3f72b3ee062cf54f8f/ratpack-groovy-1.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-spring-boot/1.1.1/1f3465e29e6cb48c7a399d225c5ef0278a50f859/ratpack-spring-boot-1.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.1.RELEASE/622e02ce77b3bea202b596a6fa0c40525ec81e1c/spring-boot-starter-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.0.M4/181eb5cc58171d6d054af58245ccc37bd9e142db/spring-cloud-starter-eureka-1.1.0.M4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.0.Beta7/8cf5b2bb72b681a118750550a99ac91600553b6/netty-handler-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk7/2.6.4/34fed916a3dc42f1bc9f7a71eb048638c6c0bda/jackson-datatype-jdk7-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.6.4/7e613a59c5de6d10c3b4665e8c1c0c175baf8777/jackson-datatype-jdk8-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.0.Beta7/2ee897fdf29b55b07122c3aeeb78af40cfb67648/netty-transport-native-epoll-4.1.0.Beta7-linux-x86_64.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.0.Beta7/9f12d00b8db810d1030c4e4f86cf058369bfb2f9/netty-transport-native-epoll-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jack                                                                                                                                                                                      son.dataformat/jackson-dataformat-yaml/2.6.4/6c0892da11d9e7d75c3fa2e49ec2bf7c14a1ae8c/jackson-dataformat-yaml-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.0.Beta7/b91febe24d9b0f9cacd5f26c36a07215f6f353da/netty-codec-http-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.6.4/d4e062ad01d022be33a8366043500eed3905db3c/jackson-datatype-jsr310-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.1.3/c01428efa717624f7aabf4df319939dda9646b2d/jzlib-1.1.3.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.4/f2abadd10891512268b16a1a1a6f81890f3e2976/jackson-databind-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-guava/2.6.2/3535dd92e8849c6b97f425d5c3d07fcb4e0140e7/jackson-datatype-guava-2.6.2.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.4/b22748b6cf9a38c9777792175507a679043cdd64/groovy-all-2.4.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.ratpack/ratpack-guice/1.1.1/87c94cb0ccc4203e1b457778b225b0a1c41cc503/ratpack-guice-1.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.1.RELEASE/16ecb1f0b3ccbc8ecd52fa9de57a273d5a3eea00/spri                                                                                              ng-boot-autoconfigure-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.1.RELEASE/7ea554d1d14e180ee080abc3e7c19e316a700188/spring-boot-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.1.RELEASE/ba9d2d5094d83cf40dab474d6526befb5ce85a74/spring-boot-starter-logging-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.4.RELEASE/160ccd89230753d4f49477a967f5876b034d9745/spring-core-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/d64fb662c9e42789149f5078a62a22edda786c6a/snakeyaml-1.16.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.1.RELEASE/dd3c0e6cdee57e591eabc95a33b16233547eec91/spring-boot-starter-web-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.1.0.M4/fa837dec03e87c9a2eb6840451086e5535ba40af/spring-cloud-starter-1.1.0.M4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.1.0.M4/62eca2292d36f0a1fde6a724b4eb2edcb7333362/spring-cloud-netflix-core-1.1.0.M4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.3.4/bd92cfa5ad8839e20c7d97aec0b400185a1b6900/eureka-client-1.3.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.0.M4/e7bd94e896c2b48a21e4b9e6290a4afbfc876459/spring-cloud-starter-ribbon-1.1.0.M4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.1.0/3f6e3b5baae9a884d823569d37dfb0cc46c5cc25/ribbon-eureka-2.1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.2/97e5013f391487cce4de6b0eebcde21549e91872/xstream-1.4.2.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io                                                                                              .netty/netty-buffer/4.1.0.Beta7/ffd4c841fafe95ac9dbf54a745b21d280bf44b5c/netty-buffer-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.0.Beta7/2361b5b78de993e389bb37f534911f0ba63cbd52/netty-transport-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.0.Beta7/843518bd05d5ad6f58efdbfdb232a52d0bb8dec8/netty-codec-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.4/27d3a9f7bbdcf72d93c9b2da7017e39551bfa9fb/jackson-core-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.0.Beta7/7e62369d90e12ea5965161c3d4eb88b9353432c6/netty-common-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.4/ecbd5ad4efa46c8e88522751a80841a49e81a34d/jackson-annotations-2.6.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.google.inject.extensions/guice-multibindings/4.0/f4509545b4470bbcc865aa500ad6fef2e97d28bf/guice-multibindings-4.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.0/f990a43d3725781b6db7cd0acf0a8b62dfd1649/guice-4.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.4.RELEASE/23cd0109e4eafc5629547e3680b0c4031e82efdd/spring-context-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.3/d90276fff414f06cb375f2057f6778cd63c6082f/logback-classic-1.1.3.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.13/d78d2242e14e4182625152d225f76ae52b43491d/jcl-over-slf4j-1.7.13.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.13/43759e986de5fec7045e35e9533e5ad2f6cd1b05/jul-to-slf4j-1.7.13.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.13/b5f4685073a6ffba6bf7e1d51e2b5fb83bdfa953/log4j-over-slf4j-1.7.13.jar, file:/U                                                                                              sers/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.3.1.RELEASE/3c21bd7269af0df9b2d1b67581eec191e70faeb5/spring-boot-starter-tomcat-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.3.1.RELEASE/47f424e3c7ed629b988b1976e52b662834a76856/spring-boot-starter-validation-1.3.1.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.4.RELEASE/d4bcc6f4d8b64d7af9b67bc17f0d5106dce97926/spring-web-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.4.RELEASE/cf4317be9c83b4c1c65ce2d3bb96673ac546030a/spring-webmvc-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.1.0.M4/f6e5bad29aa8191818f20b7b8b79676a0410d0bf/spring-cloud-context-1.1.0.M4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.0.M4/d33991715471ab473eae653744e6f347d94aeaab/spring-cloud-commons-1.1.0.M4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/7d36a59a0577f11b12088b9e215d6860345b9e1d/jettison-1.3.7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-eventbus/0.1.2/45882b22d6884f226e9f697e9546d7fc59628566/netflix-eventbus-0.1.2.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.1/657d41df404ad5b51272ea3da86f744988f96ac/archaius-core-0.7.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/59033da2a1afd56af1ac576750a8d0b1830d59e6/jsr311-api-1.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.0/daf518e946c3822a5215a69477e9bf52ba6a7df4/servo-core-0.10.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.19/9a0619e2c514a79b610f17cadaae619c0a08d6a6/je                                                                                              rsey-core-1.19.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.19/6836ee36dba2b3ac1d0ff4733129fba8aba7f963/jersey-client-1.19.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19/22a5dd073aa8a8695c461ad9375da36b00f1ad20/jersey-apache-client4-1.19.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/7e3cecc566df91338c6c67883b89ddd05a17db43/httpclient-4.5.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-annotations/1.10.4/d428b084fdc7e7e4f7d57e8c945a42b3b07baa74/governator-annotations-1.10.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.1.0/b123c618c2abd8cf6403bd56ce4a70ffef3eae00/ribbon-2.1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.1.0/aff1b2f55a679fc6f40ea0683326b531754830cf/ribbon-core-2.1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.1.0/37c838f0a20a4148ec191e4242a7386e167b0987/ribbon-httpclient-2.1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.1.0/af69343b5fc0c35303abd70beb2f700968b2986c/ribbon-loadbalancer-2.1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka2-client-shaded/2.0.0-rc.2/f669e8071facea2d9b261f5dfec89ba6f9ce71dd/eureka2-client-shaded-2.0.0-rc.2.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.0.Beta7/4857d4b7f122e3001a112df                                                                                              e5d9d722394498200/netty-resolver-4.1.0.Beta7.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.4.RELEASE/3329cf71b4bc49c9767ca4f0704ed7b773f29fba/spring-aop-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.4.RELEASE/dc8e0874b53435f3e277d9da5aebd8b93cc7cf64/spring-beans-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.4.RELEASE/15b6f6d61bc68fe2cc6cbd63e2329601afb8b39/spring-expression-4.2.4.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.30/87b12667b258d0135f7cf4234030a5ccbb55193f/tomcat-embed-core-8.0.30.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.30/b97d5ff750126d7fdaf412aeec219306bd157e50/tomcat-embed-el-8.0.30.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.30/c19b5c37e1f67bf58f9726b438d5323411cd43c6/tomcat-embed-logging-juli-8.0.30.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.30/84cf6feff7ed4f73689b4fa076cc6ec33851e075/tomcat-embed-websocket-8.0.30.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.0.3.RELEASE/46802f89ed4b7894b527058aeaeeab7fba53276a/spring-security-crypto-4.0.3.RELEASE.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0                                                                                              d70/stax-api-1.0.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-internal/0.10.0/fd520a2ac82ec7001084cbd36458ef63c859cc41/servo-internal-0.10.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.1.0/68fbfce8990c96c666ff085380c8964e431f9466/ribbon-transport-2.1.0.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.4.21/c7bc2e31932ced2e4947a02dfffa0d2af592b59d/hystrix-core-1.4.21.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/5aff3c9d6bb9d9066c378bb3d2a4413ed1773bcf/rxnetty-0.4.9.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.1.1/39e67061780476f207b31465baaed84a91ff659f/netflix-commons-util-0.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/12f6e48253f9cafa0e24d7d232ff504c52143212/netflix-statistics-0.1.1.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/6efe17a25602a5424c18ab975aa9c28b6d6b7f56/rxnetty-contexts-0.4.9.jar, file:/Users/marcpa/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-serv                                                                                              o/0.4.9/b7d6d6e132686c280f16710eaa3e90719f6808f8/rxnetty-servo-0.4.9.jar, file:/Users/marcpa/Code/jrebel-spring-boot/boot-ratpack-groovy-springcloud/jrebel/jrebel.jar]
+2016-01-24 17:51:15.549 ERROR 99632 --- [ack-compute-1-4] r.e.i.DefaultDevelopmentErrorHandler     : exception thrown for request to /
+
+org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [org.springframework.cloud.context.environment.EnvironmentManager@63337fa1] with key 'environmentManager'; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager
+	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:625) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.registerBeans(MBeanExporter.java:550) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:432) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:792) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at ratpack.spring.Spring.spring(Spring.java:104) ~[ratpack-spring-boot-1.1.1.jar:na]
+	at ratpack.spring.Spring.spring(Spring.java:91) ~[ratpack-spring-boot-1.1.1.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93) ~[groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46) ~[groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91) ~[groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48) ~[groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113) ~[groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-all-2.4.4.jar:2.4.4]
+	at ratpack$_run_closure1$_closure3.doCall(ratpack.groovy:12) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.codroovy.reflection.CachedMethod.invoke(CachedMethod.java:93) ~[groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325) ~[groovy-all-2.4.4.jar:2.4.4]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294) ~[groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019) ~[groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.Closure.call(Closure.java:426) ~[groovy-all-2.4.4.jar:2.4.4]
+	at groovy.lang.Closure.call(Closure.java:442) ~[groovy-all-2.4.4.jar:2.4.4]
+	at ratpack.groovy.internal.ClosureInvoker.invoke(ClosureInvoker.java:59) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.groovy.internal.ClosureInvoker.lambda$toAction$19(ClosureInvoker.java:70) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.handling.internal.ChainBuilders.build(ChainBuilders.java:32) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.groovy.Groovy.chain(Groovy.java:494) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.groovy.Groovy.chain(Groovy.java:509) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.groovy.Groovy$Script.lambda$doApp$7(Groovy.java:323) ~[ratpack-groovy-1.1.1.jar:na]
+	at ratpack.server.internal.DefaultRatpackServer.buildRatpackHandler(DefaultRatpackServer.java:304) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.server.internal.DefaultRatpackServer.buildAdapter(DefaultRatpackServer.java:267) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.server.internal.DefaultRatpackServer$ReloadHandler.lambda$null$257(DefaultRatpackServer.java:494) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking$1.lambda$get$122(Blocking.java:70) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking.intercept(Blocking.java:241) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking.access$000(Blocking.java:35) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking$1.get(Blocking.java:68) ~[ratpack-core-1.1.1.jar:na]
+	at ratpack.exec.Blocking$1.get(Blocking.java:61) ~[ratpack-core-1.1.1.jar:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na60]8.0_
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_60]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_60]
+	at ratpack.exec.internal.DefaultExecController$ExecControllerBindingThreadFactory.lambda$newThread$135(DefaultExecController.java:113) ~[ratpack-core-1.1.1.jar:na]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137) ~[netty-common-4.1.0.Beta7.jar:4.1.0.Beta7]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_60]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900) ~[na:1.8.0_60]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324) ~[na:1.8.0_60]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:1.8.0_60]
+	at org.springframework.jmx.support.MBeanRegistrationSupport.doRegister(MBeanRegistrationSupport.java:195) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:678) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:615) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	... 55 common frames omitted
+
+2016-01-24 17:51:40.002  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050 - Re-registering apps/BOOT-IN-RATPACK
+2016-01-24 17:51:40.002  INFO 99632 --- [pool-4-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BOOT-IN-RATPACK/apple-tv.marcpa.maison:boot-in-ratpack:5050: registering service...
