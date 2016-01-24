@@ -1,4 +1,4 @@
-import com.example.DemoApplication
+import com.example.SpringBootConfig
 import com.example.MyHandler
 import ratpack.spring.Spring
 
@@ -9,7 +9,7 @@ ratpack {
       bindInstance(new MyHandler())
   }
   handlers {
-    register(Spring.spring(DemoApplication))
+    register(Spring.spring(SpringBootConfig))
     get {
       render "Hello World from ratpack"
     }
